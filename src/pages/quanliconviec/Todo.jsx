@@ -14,7 +14,7 @@ function Todo(props) {
 
                <div className=' w-full grid grid-cols-12 gap-4'>
                     {/* Thêm công việc */}
-                    <AddTodo isShow={isShow} />
+                    <AddTodo isShow={isShow} setIsShow={setIsShow} />
                     {/* Thêm công việc */}
 
                     {/* Table */}
